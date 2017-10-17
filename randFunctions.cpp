@@ -127,7 +127,7 @@ srand(seed);
 
 int getRand(int min, int max){
 
-	int random = min + rand() % max;
+	int random = rand() % (max + 1);
 	return random;
 }
 
